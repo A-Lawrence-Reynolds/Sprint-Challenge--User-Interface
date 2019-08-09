@@ -156,6 +156,7 @@ h5 {
 
 p {
     line-height: 1.4;
+    padding-bottom: 20px;
 }
 
 .container {
@@ -364,52 +365,44 @@ header {
 }
 
 .info-box {
-
-
-    background: teal;
     margin: 20px 2.5%;
-    color: rgb(207, 40, 40);
+    width: 45%;
+    border-bottom: 1px dashed gray;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-content: flex-start;
+    justify-content: flex-start;
     flex-direction: column;
-    padding: 40px;
+    padding: 10px;
 }
 
 .info-box2 {
-
-
-    background: teal;
     margin: 20px 2.5%;
-    color: rgb(207, 40, 40);
+    width: 45%;
+    border-bottom: 1px dashed gray;
     display: flex;
-    align-items: center;
+    align-content: flex-start;
     justify-content: center;
     flex-direction: column;
     padding: 10px;
 }
 
 .info-box3 {
-
-
-    background: teal;
     margin: 20px 2.5%;
-    color: rgb(207, 40, 40);
+    width: 45%;
+    border-bottom: 1px dashed gray;
     display: flex;
-    align-items: center;
+    align-content: flex-start;
     justify-content: center;
     flex-direction: column;
     padding: 10px;
 }
 
 .info-box4 {
-
-
-    background: teal;
+    width: 45%;
+    border-bottom: 1px dashed gray;
     margin: 20px 2.5%;
-    color: rgb(207, 40, 40);
     display: flex;
-    align-items: center;
+    align-content: flex-start;
     justify-content: center;
     flex-direction: column;
     padding: 10px;
@@ -418,18 +411,28 @@ header {
 
 .info-box-container {
     display: flex;
+    flex-wrap: wrap;
     padding: 10px;
-    justify-content: space-evenly;
-    align-content: space-between;
-    flex-direction: column;
-    height: 1650px;
+    justify-content: center;
+    align-content: center;
+
+
 }
 
 .lwt-div {
     display: flex;
     flex-direction: column;
-    padding-top: 160px;
+    padding-top: 60px;
     padding-bottom: 30px;
     flex-wrap: wrap;
 
+}
+
+.image-box>img {
+    width: 100%;
+}
+
+button {
+    width: 35%;
+    border-radius: 5px;
 }
